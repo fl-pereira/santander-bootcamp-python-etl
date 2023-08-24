@@ -14,7 +14,7 @@ def get_user(id):
 
 users = [user for id in user_ids if (user := get_user(id)) is not None]
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 def generate_ai_news(user):
     completion = openai.ChatCompletion.create(
@@ -38,4 +38,11 @@ for user in users:
     user['news'].append({
         "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/credit.svg",
         "description": news
-    })   
+    })
+
+def update_users(user):
+    response = requests.put(f"{bootcamp_api_url}/users/{user['id']}", json=user)
+    return True if response.status_code == 200 else False
+
+for user in users:
+    success = update_users(user)    
