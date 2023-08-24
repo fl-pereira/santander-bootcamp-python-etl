@@ -1,0 +1,54 @@
+{
+    "id": 466,
+    "name": "Felipe Pereira",
+    "account": {
+      "id": 475,
+      "number": "01234-5",
+      "agency": "4321-0",
+      "balance": 0,
+      "limit": 1000
+    },
+    "card": {
+      "id": 449,
+      "number": "4321 **** **** 4343",
+      "limit": 4000
+    },
+    "features": [],
+    "news": []
+  },
+  {
+    "id": 467,
+    "name": "Daphne Côrrea",
+    "account": {
+      "id": 476,
+      "number": "9876-5",
+      "agency": "5678-9",
+      "balance": 0,
+      "limit": 2000
+    },
+    "card": {
+      "id": 450,
+      "number": "6543**** **** 6789",
+      "limit": 4000
+    },
+    "features": [],
+    "news": []
+  },
+  {
+    "id": 468,
+    "name": "Ravena Teka Mika de Cristal",
+    "account": {
+      "id": 477,
+      "number": "3524-5",
+      "agency": "9685-9",
+      "balance": 0,
+      "limit": 2000
+    },
+    "card": {
+      "id": 451,
+      "number": "1234**** **** 5678",
+      "limit": 4000
+    },
+    "features": [],
+    "news": []
+  }
