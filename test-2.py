@@ -12,5 +12,13 @@ def get_user(id):
     response = requests.get(f'{api_url}/etl/{id}')
     return response.json() if response.status_code == 200 else None
 
+def change_name(id, name):
+    
+
+def update_user(id):
+    response = requests.put(f"{api_url}/etl/{user['id']}", json=user)
+    return True if response.status_code == 200 else False
+
 for user in user_ids:
     print(get_user(user))
+
