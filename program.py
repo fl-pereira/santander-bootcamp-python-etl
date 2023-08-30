@@ -42,5 +42,3 @@ while True :
     choice = input("Continue changing user´s mail address? 0 - NO // 1 - YES ")
     if choice == "0":
         break
-
-
