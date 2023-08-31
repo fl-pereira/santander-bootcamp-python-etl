@@ -1,0 +1,14 @@
+{
+    "_id" : 1,
+    "nome" : "Felipe Pereira",
+    "email" : "mail@mail.com",
+    "data_nasc" : "1990-09-05",
+    "endereco" : [{
+        "logradouro" : "Rua Dirce",
+        "numero" : "100",
+        "cep" : "860450-000",
+        "cidade" : "Londrina",
+        "estado" : "Paraná",
+        "pais" : "Brasil"
+    }]
+}
